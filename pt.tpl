@@ -1,3 +1,4 @@
+{% macro main(rule) %}
 # NAME:PrivateTracker-List
 # AUTHOR:Aruba
 # UPDATED:2022-1-18 15:50:59
@@ -331,3 +332,4 @@ DOMAIN-KEYWORD,get_peers,DIRECT
 DOMAIN-KEYWORD,find_node,DIRECT
 DOMAIN-KEYWORD,BitTorrent,DIRECT
 DOMAIN-KEYWORD,announce_peer,DIRECT
+{% endmacro %}
